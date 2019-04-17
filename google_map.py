@@ -16,7 +16,7 @@ class GoogleMaps(object):
 
     def __init__(self):
 
-        self._GOOGLE_MAPS_KEY = "AIzaSyCr8v4R2lv8lvAHKkNPp9GSWICQYKMBB50"
+        self._GOOGLE_MAPS_KEY = "#################" # Key here
         self._Google_Places = GooglePlaces(self._GOOGLE_MAPS_KEY)
         self._Google_Geocod = googlemaps.Client(key=self._GOOGLE_MAPS_KEY)
 

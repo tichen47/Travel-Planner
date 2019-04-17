@@ -11,7 +11,7 @@ from pprint import pprint
 from restaurant_info import  Restaurant_info
 
 def return_restaurant(location_name):
-    api_key = "Ws_y__PwjQDdu8XF1yU66OHl5V4Wkrapy_I-DWvKn4WP_r6JPZwyKiKdPcnn9lUy5ZEiJy9Lqfygl-wVDfSWxy97eHl2ADcruuX1fJ06T8mGh82-O4thXWtZYQapXHYx"
+    api_key = "###############"
     yelp_api = YelpAPI(api_key)
     # pprint(yelp_api.search_query(term='restaurant', location=location_name, sort_by='rating', limit=5))
     results = yelp_api.search_query(term='restaurant', location=location_name, limit=5)['businesses']
